@@ -19,7 +19,7 @@ a {
 
 .nav-item {
     list-style: none;
-    margin-right: 32px;
+    margin-right: 20px;
 }
 
 .nav-item a {
@@ -33,7 +33,7 @@ a {
 }
 
 .fi {
-    font-size:  16px;
+    font-size:  12px;
     margin-right: 10px;
 }
 
@@ -56,6 +56,19 @@ a {
 
 .fi:hover {
     transform: scale(1.5);
+}
+
+#search {
+    display: inline-block;
+    border-radius: 8px;
+    outline: none;
+    padding: 3px 5px;
+    width: 200px;
+}
+
+#search:active {
+    background-color: rgba(0,0,0,0.1);
+    color: black;
 }
 
 nav {
