@@ -1,7 +1,7 @@
 body {
     margin: auto;
     padding: 5px 0;
-    width: 95%;
+    width: 97%;
 }
 
 a {
@@ -71,14 +71,19 @@ a {
 
 header {
     display: flex;
-    margin: 5px 0;
-    padding: 0.5rem;
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 10px;
+    margin: 0;
     width: 100%;
     height: 80vh;
 }
 
+header .img {
+    background-image: url('https://lh3.googleusercontent.com/pw/ABLVV84jUUReACDT7MN0hD7Jv_NKa1QinogTq1Fid4KRSSTjGZNX8_CFIZ2wF1aAZ-5u1qdlfCyUl2Zfe8zfXpll3WmmiEPTzfbucSq6S0pE7-tw7FxYxLvgfPpuu4k2LZczJj5g-ESsd-e9zyLV7D1aFLg7RzT4KH__SFwqTsgrlPLl5C--oX4uKmvxQZuIZv9h7BOuQSuuXa0cjf2ElA7i0EGFuw7n3L4OKIUOI5-xkHszELINyeaz9f-hCursHZ_vV-lHz_bJY5i6-amlaFrVmqfpVDfWpnMjcdZ2R2_X-Oygy6IbPb28Xhp5RiWq8c_3RIQTC4ew3OwlgKa2J8TZoVk_lhejVegLcBaeL98GVTuvUHuVw2a-SniI-0MI9XN308LLpEh0IZ9C0HisgpCo80BaNoGAPP_lslxod9_4Px1cKk16lH0-loj-iekvOSXzBUIr1A7mJMJ2x-_RjYInS2RysKaCvdCVzOdI_Dx5fO0dti4PyE4muy5oUigoWKrSWFUR_kZX04E0rAx_JUCJ-pYWUCWoD4ek2I5WeDtzZPMYFSNYl57VHkLxZ2ZXUx1Af0RGjXeVqgNuZQ4tSExoKJUF_kuoO3HYBxG_hmhs2ocdyfNqOOrSoAWSaV5AfuAk5TNpe-_C10MV-gnmEPAMgFVOYaZEavRD3ZajHaPdtN6AxVuoumO_XcGShtqdjUa_KrT_0MGQSGkmnxc-3gY_VXMIlZJexpuE7qyc7yrd_GCilSWRFOqOXPgX-NhOKD_EY1uCVW_-PIihLG7b9a4FpiG88Sj5685aLdVNZlr6Bz7yJH8oboxCtzTrZj4pEPmAM3qsRwYCUjD7Nm7mDvGB1FfW5fTGC0b7onzel0_oHBEsmb7OKuc2Cma1x9cLdc_KkMsGAWclZQzLxlmNZLcV2RB2xktCB3IrploTwrSpRuS5lh06nJVE-7ttHqhCZiEN58ny2dVFRit2SsWs7JrkI06rQ0acTzVBetPuNAXgeVefCxo-5AneSISGR52XBRYX-I5ATdpT7h9lJi1WGwsGpbOaZOI7WsuOKoKU7OMbgd6Nx4FI_CbAOQ=w1549-h857-s-no-gm?authuser=5');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    border-radius: 10px;
+}
 
 .featured-month {
     font-size: 1.1rem;
@@ -112,26 +117,6 @@ header {
     text-align: center;
 }
 
-.featured {
-    display: flex;
-    position: relative;
-    width: 100%;
-    margin-left: 10px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.featured-image{
-    position: relative;
-    margin: 20px 10px 20px 30px;
-}
-
-.image-summary {
-    margin: auto 0;
-    padding: 5px 10px;
-    font-size: 1.2rem;
-    text-align: center;
-}
 
 .see-more {
     color: #000;
